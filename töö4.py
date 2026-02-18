@@ -1,9 +1,19 @@
+#reklaam = int(input("Mitu korda soovid? "))
+#rl = input("Reklaamlause: ")
+#def banner(a):
+   #return a.upper()
+
+#for i in range(reklaam):
+    #print(banner(rl))
+
+
+
+
 #def mahlapakkide_arv(ountekogus):
     #return round(ountekogus * 0.4 / 3)
 
 #ountekogus = float(input("Sisestage õunte kogus kilogrammides: "))
 #tulemus = mahlapakkide_arv(ountekogus)
-
 #print(tulemus)
 
 
@@ -38,24 +48,16 @@
 # for i in range(1, arv + 1):
 #     tervitus(i)
 
-def pronksikarva_summa(myndid):
-    summa = 0
-    for m in myndid:
-        if m in (1, 2, 5):
-            summa += m
-    return summa
+#def pronksikarva_summa(myndid):
+#   summa = 0
+#    for m in myndid:
+#        if m in (1, 2, 5):
+#           summa += m
+#   return summa
 
 
 
-failinimi = input("Sisesta failinimi: ")
 
-with open(failinimi, "r") as fail:
-    myndid = []
-    for rida in fail:
-        myndid.append(int(rida.strip()))
 
-tulemus = pronksikarva_summa(myndid)
-
-print("Hoiupõrsasse läheb", tulemus, "senti.")
 
 
