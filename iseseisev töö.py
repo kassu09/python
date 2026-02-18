@@ -1,4 +1,3 @@
-import turtle
 
 import turtle
 
@@ -45,3 +44,4 @@ turtle.pendown()
 kujund5()
 
 turtle.done()
+
