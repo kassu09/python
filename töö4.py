@@ -1,3 +1,14 @@
+#def mahlapakkide_arv(ountekogus):
+    #return round(ountekogus * 0.4 / 3)
+
+#ountekogus = float(input("Sisestage õunte kogus kilogrammides: "))
+#tulemus = mahlapakkide_arv(ountekogus)
+
+#print(tulemus)
+
+
+
+
 # def eelarve(kylalisi):
 #     return kylalisi * 10 + 55
 # 
@@ -46,4 +57,5 @@ with open(failinimi, "r") as fail:
 tulemus = pronksikarva_summa(myndid)
 
 print("Hoiupõrsasse läheb", tulemus, "senti.")
+
 
