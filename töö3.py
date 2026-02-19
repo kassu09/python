@@ -40,18 +40,19 @@
 #    nr = nr + 1
 #from datetime import * 
 
-# kord=int(input("Mitu korda soovid? "))
-# rl=input("Reklaamilause: ")
-
-# def 
-
-# print (rl.upper())
+#kord=int(input("Mitu korda soovid? "))
+#rl=input("Reklaamilause: ")
 
 
-# def mahlapakkide_arv:
-    # return round(ounad * 0.4 / 3)
 
- #def arvutus=():
-     #kg = float(input("Sisestage õunte kogus kilogrammides: "))
-    #print(mahlapakkide_arv(kg))
+#print (rl.upper())
 
+pakk = 3
+ounad =float(input("Õunte kogus "))
+liitrid = 20
+def mahlapakkide_arv(k):
+    pakkidearv=round(k*0.4/3)
+    return pakkidearv
+
+
+print(mahlapakkide_arv(ounad))
