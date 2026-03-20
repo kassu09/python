@@ -14,6 +14,6 @@ with open("palgad.txt") as fail:
         mehed_kokku+=1
         print (mehed_kokku)
     
-    #tykeldus = rida.split(",")
-    #for r in tykeldus:
-    #    print(r, end= " ")
+    tykeldus = rida.split(",")
+    for r in tykeldus:
+        print(r, end= " ")
